@@ -17,11 +17,12 @@ jobs:
         run: |
           rm -f Packages Packages.bz2
 
-          # Rootless 包 - arm64
+          # Rootless 包
           for deb in Rootless/*.deb; do
             if [ -f "$deb" ]; then
-              dpkg-deb -I "$deb" control | grep -v "^Architecture:" >> Packages
+              dpkg-deb -I "$deb" control | grep -v "^Architecture:" | grep -v "^Section:" >> Packages
               echo "Architecture: iphoneos-arm64" >> Packages
+              echo "Section: Rootless" >> Packages
               echo "Filename: $deb" >> Packages
               echo "Size: $(wc -c < "$deb")" >> Packages
               echo "MD5sum: $(md5sum "$deb" | awk '{print $1}')" >> Packages
@@ -30,11 +31,12 @@ jobs:
             fi
           done
 
-          # RootHide 包 - arm64e
+          # RootHide 包
           for deb in RootHide/*.deb; do
             if [ -f "$deb" ]; then
-              dpkg-deb -I "$deb" control | grep -v "^Architecture:" >> Packages
+              dpkg-deb -I "$deb" control | grep -v "^Architecture:" | grep -v "^Section:" >> Packages
               echo "Architecture: iphoneos-arm64e" >> Packages
+              echo "Section: RootHide" >> Packages
               echo "Filename: $deb" >> Packages
               echo "Size: $(wc -c < "$deb")" >> Packages
               echo "MD5sum: $(md5sum "$deb" | awk '{print $1}')" >> Packages
