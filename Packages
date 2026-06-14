@@ -1,1 +1,18 @@
- 
+Package: com.sini.baiduhook
+Name: 百度去开屏及导出按钮(rootless)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/baiduhook/js.json
+Author: ylr <ylr638058@gmail.com>
+Description: 百度去开屏以及添加导出按钮，ylr制作投稿
+Depends: mobilesubstrate,firmware (>= 14.0)
+Maintainer: ylr <ylr638058@gmail.com>
+Section: 应用破解
+Version: 1.5.5
+Installed-Size: 92
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Filename: RootHide/com.sini.baiduhook_1.5.5_iphoneos-arm64e.deb
+Size: 13972
+MD5sum: 83acd429d72915f84f712620d5824c16
+SHA256: 685f761694d7b5030e6dcd946786d2416c900775d9b7e72a8c26393a13b33a3e
+
