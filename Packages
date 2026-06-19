@@ -98,3 +98,21 @@ Size: 15842946
 MD5sum: ec1215596ef8e8c9b4cea5dde6150ade
 SHA256: bcba8f3af3820276591c7cf91021da541e66c8b8cf2e13b76bd9463139fd6df9
 
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 2.3.9-7
+Installed-Size: 10488
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/抖音图层_2.3.9-7.deb
+Size: 9181104
+MD5sum: b85a0b5582b2d49ed5ba91ba8919f88a
+SHA256: 09a1e42d5c1383b32ed4dfcb049687c04680dfa9c17256b3a44cebf8d0d5d507
+
