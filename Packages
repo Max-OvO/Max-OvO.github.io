@@ -1,3 +1,69 @@
+Package: com.25mao.BubbleBox
+Description: 微信气泡插件
+Version: 1.0-7
+Priority: optional
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Name: 气泡盒子
+Author: Mao
+Sponsor: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.25mao.BubbleBox_1.0-7_iphoneos-arm64e%0A.deb
+Size: 4879190
+MD5sum: 8a9cc7beb990c5ba684b762103f755a9
+SHA256: 12133a297f1bd044b912414805a891089f720ff626d41895d310f2802b17df66
+
+Package: com.25mao.miyou.rootless
+Description: 微信助手-Rootless版
+Version: 3.9-5
+Priority: optional
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Name: 微信助手-Rootless
+Author: Mao
+Sponsor: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.25mao.miyou.rootless_3.9-5_iphoneos-arm64e.deb
+Size: 13762578
+MD5sum: d4f9cb98d97b2865e23d90b1305ee33e
+SHA256: 6084e1f02d417085f5c4b059e9de3386cdd0b2b11a7eaa610737a4c270d0b3c5
+
+Package: com.25mao.wcplugins.rootless
+Description: 插件管理-Rootless
+Version: 0.1-6
+Priority: optional
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Name: 微信插件管理-Rootless
+Author: Mao
+Sponsor: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64e.deb
+Size: 17980
+MD5sum: 41a2562ee006a93edcaa871e6039b1e2
+SHA256: 71055cc688f86cb4cb69cac92e224eda907ca8e3c9d02cb5f974f5b4d6b155da
+
+Package: com.HBWechatHelper.ailun
+Version: 2.1.2
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)-Rootless
+Author: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.hbwechathelper.ailun_2.1.2_iphoneos-arm64e.deb
+Size: 31044098
+MD5sum: 3a79f3d5d2874b63a591f0be2d32be6e
+SHA256: 16b55a802db58ff1c906735f66e2d51ef768cbc81e8c093e78d322714552b76c
+
 Package: com.sini.baiduhook
 Name: 百度去开屏及导出按钮(rootless)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduhook.png
@@ -15,4 +81,20 @@ Filename: RootHide/com.sini.baiduhook_1.5.5_iphoneos-arm64e.deb
 Size: 13972
 MD5sum: 83acd429d72915f84f712620d5824c16
 SHA256: 685f761694d7b5030e6dcd946786d2416c900775d9b7e72a8c26393a13b33a3e
+
+Package: com.tencent.themebox
+Description: 微信主题盒子
+Version: 2.3.6
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 主题盒子
+Author: Mao
+Sponsor: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.tencent.themebox_2.3.6_iphoneos-arm64e%0A.deb
+Size: 15842946
+MD5sum: ec1215596ef8e8c9b4cea5dde6150ade
+SHA256: bcba8f3af3820276591c7cf91021da541e66c8b8cf2e13b76bd9463139fd6df9
 
