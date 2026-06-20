@@ -64,6 +64,21 @@ Size: 31044098
 MD5sum: 3a79f3d5d2874b63a591f0be2d32be6e
 SHA256: 16b55a802db58ff1c906735f66e2d51ef768cbc81e8c093e78d322714552b76c
 
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Version: 2.0.0
+Installed-Size: 1144
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.iosdump.zone_2.0.0_iphoneos-arm64e.deb
+Size: 206022
+MD5sum: 25a7523ede8066dfb3a933faf88b1261
+SHA256: 4d138dee32ff1ddc0052c01d159db01391f52de9aca480ebfaabcf8393fadbe4
+
 Package: com.sini.baiduhook
 Name: 百度去开屏及导出按钮(rootless)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduhook.png
