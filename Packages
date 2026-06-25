@@ -49,6 +49,24 @@ Size: 17980
 MD5sum: 41a2562ee006a93edcaa871e6039b1e2
 SHA256: 71055cc688f86cb4cb69cac92e224eda907ca8e3c9d02cb5f974f5b4d6b155da
 
+Package: com.developlab.appbadge
+Name: AppBadge顶部显示当前app图标及名称
+Description: 在刘海或灵动岛下显示app icon和名称
+Maintainer: developlab
+Author: developlab
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Version: 1.0
+Installed-Size: 152
+Icon: https://axs66.github.io/pro/icon/appbadge.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appbadge/js.json
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.developlab.appbadge_1.0_iphoneos-arm64e.deb
+Size: 10886
+MD5sum: 8b07037922b838e41137bc0bbae92a7f
+SHA256: c687090c019976ed7831fb55a8cc5528f5de8e7a122f0bdde31d0ae1fb111365
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Maintainer: HuangBai <QQ:1343309363@qq.com>
