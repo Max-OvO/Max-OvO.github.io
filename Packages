@@ -1,3 +1,21 @@
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 2.6.1
+Installed-Size: 11876
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/aweme.x_2.6.1_iphoneos-arm64e.deb
+Size: 10003192
+MD5sum: 47ab2d8c2e80f2610775eadf3b78b05e
+SHA256: 90a0ec8aa3f450bf6321441de8de958b828ddde60aa2e95012cb6fb35e21cec0
+
 Package: com.25mao.BubbleBox
 Description: 微信气泡插件
 Version: 1.0-7
@@ -97,6 +115,23 @@ Size: 206022
 MD5sum: 25a7523ede8066dfb3a933faf88b1261
 SHA256: 4d138dee32ff1ddc0052c01d159db01391f52de9aca480ebfaabcf8393fadbe4
 
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: com.netskao.filzacrack
+Name: Filza Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Filza Crack
+Maintainer: Nets
+Author: Netskao
+Version: 1.1-9
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 39676
+MD5sum: 5a02495c2245c2ac72238ff78a5a3781
+SHA256: 6099e06dc3638ef5db1b29190bbaa3406a9128287adb968a5464fbb185ec6ba0
+
 Package: com.sini.baiduhook
 Name: 百度去开屏及导出按钮(rootless)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduhook.png
@@ -130,6 +165,27 @@ Filename: RootHide/com.tencent.themebox_2.3.6_iphoneos-arm64e%0A.deb
 Size: 15842946
 MD5sum: ec1215596ef8e8c9b4cea5dde6150ade
 SHA256: bcba8f3af3820276591c7cf91021da541e66c8b8cf2e13b76bd9463139fd6df9
+
+Author: Netskao <admin@initnil.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 微信净化
+Package: netskao.wechatpurification
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Installed-Size: 23733
+Version: 2026.04-6
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: netskao
+Tag: purpose::extension
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/netskao.wechatpurification_2026.04-6_iphoneos-arm64e.deb
+Size: 22864796
+MD5sum: 679e7322c50f126137756d077e4723d7
+SHA256: c95c4541d0c7fbe23c9aaaf02ff7de5d4fb7fc7633cedd85cee42c673997093a
 
 Package: aweme.x
 Conflicts: com.xx.dyhook
@@ -166,4 +222,19 @@ Filename: RootHide/抖音图层_2.3.9-8.deb
 Size: 8851058
 MD5sum: 1764cb6a444ec2afdf63e5916a5ad90f
 SHA256: edb504312950923fbce95f4890814d19ef28c6c2eb8929bd99252be417febf28
+
+Package: com.HBWechatHelper.ailun
+Version: 2.1.3
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)-Rootless
+Author: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/黄白助手2.1-3_无根.deb
+Size: 31057922
+MD5sum: 38db124a937f77f16e40c65fee36a05d
+SHA256: 43be0c3f7b222e1905fa861f0fbe3c7721b22a2d839995ceaf7d3afc4bcede0b
 
