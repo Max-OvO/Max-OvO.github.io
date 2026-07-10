@@ -187,6 +187,22 @@ Size: 22864796
 MD5sum: 679e7322c50f126137756d077e4723d7
 SHA256: c95c4541d0c7fbe23c9aaaf02ff7de5d4fb7fc7633cedd85cee42c673997093a
 
+Package: qqantirecall.x
+Name: NTQQ_AntiRecall
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Maintainer: 𝙓
+Author: 𝙓
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.6.1
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Architecture: iphoneos-arm64e
+Section: RootHide
+Filename: RootHide/qqantirecall.x_1.6.1_iphoneos-arm64e.deb
+Size: 473992
+MD5sum: d956e878b9342b0c5567491cfe63f3ce
+SHA256: 7cbb68d93c3116cacbbe4ed507d2835012706a2e0a00f99fbf29be5093e3d05f
+
 Package: aweme.x
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
